@@ -1,6 +1,6 @@
 body {
-    background-color: #F9FBE7 !important;
-    font-family: 'PT Sans', sans-serif !important;
+    background-color: #F9FBE7;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
 }
 
@@ -42,12 +42,12 @@ img {
 }
 
 .mynav {
-    color: #FEA1A1 !important;
+    color: #FEA1A1;
     text-decoration: none;
 }
 
 .mynav:hover {
-    background-color: #0d0d0d !important;
+    background-color: #0d0d0d;
     transition: transform 0.3s ease-in;
     transform: scale(1.1);
 }
@@ -87,8 +87,8 @@ img {
 }
 
 .card {
-    background-color: #F0EDD4 !important;
-    border-radius: 5px !important;
+    background-color: #F0EDD4;
+    border-radius: 5px;
     margin-right: 10px;
     padding: 10px;
     text-align: center;
@@ -105,8 +105,8 @@ img {
 }
 
 .btn:hover {
-    background-color: #0d0d0d !important;
-    color: #FEA1A1 !important;
+    background-color: #0d0d0d;
+    color: #FEA1A1;
 }
 
 .myreview {

@@ -186,7 +186,7 @@ a .icon:hover {
     color: #FEA1A1;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1028px) {
     #home {
         padding: 10% 5% 15%;
     }

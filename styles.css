@@ -185,3 +185,44 @@ a .icon:hover {
 .email:hover {
     color: #FEA1A1;
 }
+
+
+@media (max-width: 800px) {
+    #home {
+        padding: 10% 5% 15%;
+    }
+
+    #contact-page {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .page {
+        margin: 0;
+        padding: 100px 50px;
+    }
+
+    .intro {
+        font-size: 5.75rem;
+    }
+
+    .main-head {
+        font-size: 4rem;
+    }
+
+    .card {
+        width: 20rem;
+    }
+
+    .myreview {
+        padding: 30px;
+    }
+
+    .contact-head {
+        padding: 20px 0;
+    }
+
+    .details {
+        margin-top: 10px;
+    }
+}

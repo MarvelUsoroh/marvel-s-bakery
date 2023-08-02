@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>marvel's bakery</title>
+
+    <!-- CSS & Bootstrap -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f1fed43f03.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@400;900&family=PT+Sans&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="home-page">
+        <div id="navigation">
+
+            <ul class="nav nav-tabs mytab">
+                <li class="nav-item">
+                    <a class="nav-link mynav" aria-current="#home" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mynav" href="#staff">Staff</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mynav" href="#testimonial">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mynav" href="#FAQ">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mynav" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div id="home">
+            <h1 class="intro">Marvel's Bakery</h1>
+            <p class="about-text">
+                Welcome to our new bakery brand! Indulge in our freshly baked goods and sweet treats. Experience the
+                blissful
+                flavors that will keep you coming back for more.
+            </p>
+            <button class="btn btn-outline-dark"><a class="mynav" href="#menu">Explore</a></button>
+        </div>
+
+        <div id="about" class="page">
+            <h3 class="main-head">Early Bird Menu</h3>
+            <div id="menu">
+                <table>
+                    <tr>
+                        <td><img class="item" src="images/cake.png"></td>
+                        <td class="menu-text">
+                            <h3 class="menu-head">Chocolate-Creamed Cake</h3>
+                            <h5>€50</h5>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="item" src="images/cookies.jpeg"></td>
+                        <td class="menu-text">
+                            <h3 class="menu-head">Milked Cookies</h3>
+                            <h5>€10</h5>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="item" src="images/glazed-doughnuts.jpeg"></td>
+                        <td class="menu-text">
+                            <h3 class="menu-head">Glazed Doughnuts</h3>
+                            <h5>€20</h5>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img class="item" src="images/besten-muffins.jpg"></td>
+                        <td class="menu-text">
+                            <h3 class="menu-head">Blueberry Muffins</h3>
+                            <h5>€5</h5>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+    </section>
+
+
+    <section id="staff" class="page">
+
+        <h3 class="main-head">Meet Our Staffs</h3>
+
+        <div class="card-group">
+            <div class="card">
+                <img src="images/staff-one.png" class="staff-img" alt="bakery staff">
+                <div class="card-body">
+                    <h3 class="card-title">Baker</h3>
+                    <p class="card-text">Ethan is a talented and creative baker at our bakery store. With
+                        years of experience in pastry making, Ethan brings a unique flair to his creations.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/staff-two.png" class="staff-img" alt="bakery staff">
+                <div class="card-body">
+                    <h3 class="card-title">Manager</h3>
+                    <p class="card-text">Esther is an experienced and dedicated manager at our bakery store.
+                        With a passion for baking and managing teams, Esther ensures smooth operations and excellent
+                        customer service.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/staff-three.png" class="staff-img" alt="bakery staff">
+                <div class="card-body">
+                    <h3 class="card-title">Sales Rep</h3>
+                    <p class="card-text">Olivia is a friendly and outgoing sales representative at our bakery
+                        store. With a warm smile and excellent communication skills, Olivia ensures that every customer
+                        feels welcome and well taken care of.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="testimonial" class="page">
+
+        <h3 class="main-head">Testimonial</h3>
+        <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="myreview carousel-inner">
+                <div class="carousel-item active">
+                    <i class="fa-solid fa-quote-left fa-beat fa-2xl"></i>
+                    <p class="review">
+                        I recently tried the pastries from Marvel's Bakery, and they were absolutely divine! The
+                        flavors were unique and delightful. The attention to detail in presentation was exceptional,
+                        making every bite a visual treat.
+                    </p>
+                    <p class="reviewer"><small class="text-body-secondary">By customer</small></p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fa-solid fa-quote-left fa-beat fa-2xl"></i>
+                    <p class="review">
+                        The Chocolate-creamed Cake was a true work of art, with its intricate design and layers of
+                        moist cake and luscious frosting. Every bite was a taste sensation, and the quality of
+                        ingredients was evident. Marvel's Bakery is a must-visit bakery for anyone with a sweet
+                        tooth!"
+                    </p>
+                    <p class="reviewer"><small class="text-body-secondary">By customer</small></p>
+                </div>
+                <div class="carousel-item">
+                    <i class="fa-solid fa-quote-left fa-beat fa-2xl"></i>
+                    <p class="review">
+                        "I recently had the pleasure of trying the doughnuts from Marvel's Bakery, and they were
+                        a delightful treat! The glazed doughnut was incredibly light and fluffy, practically
+                        melting in my mouth with each bite. The generous dusting of powdered sugar added a touch of
+                        sweetness without overpowering the delicate flavors. Marvel's Bakery truly knows how to
+                        create doughnuts that are a heavenly experience. I can't wait to visit their bakery again!"
+                    </p>
+                    <p class="reviewer"><small class="text-body-secondary">By customer</small></p>
+                </div>
+            </div>
+
+    </section>
+
+    <section id="FAQ" class="page">
+        <h3 class="main-head">FAQ</h3>
+        <div id="faq-page">
+
+            <div class="faq">
+                <h3 class="query">What types of baked goods does your bakery offer?</h3>
+                <p class="response">Our bakery offers a wide range of delicious treats, including cakes, pastries,
+                    bread, cookies, and more. </p>
+            </div>
+
+            <div class="faq">
+                <h3 class="query">Are your baked goods made fresh daily?</h3>
+                <p class="response">Yes, indeed! We take pride in baking everything fresh each day. Our talented bakers
+                    start early in the morning to ensure that you get the freshest and most flavorful treats possible.
+                </p>
+            </div>
+
+            <div class="faq">
+                <h3 class="query">Can I visit your bakery for a quick bite or do I need to make a reservation?</h3>
+                <p class="response">You are more than welcome to visit our bakery for a quick bite! No reservation is
+                    required. We have a cozy seating area where you can enjoy your treats with a cup of freshly brewed
+                    coffee or tea.</p>
+            </div>
+
+            <div class="faq">
+                <h3 class="query">Can I pre-order baked goods for pickup?</h3>
+                <p class="response">Absolutely! We encourage pre-orders for your convenience. It helps us ensure that
+                    your desired items are ready and waiting for you when you arrive. Simply give us a call or place
+                    your order online.</p>
+            </div>
+
+            <div class="faq">
+                <h3 class="query">Can I place a custom order for a special occasion?</h3>
+                <p class="response">Absolutely! We love creating custom cakes and desserts for special occasions like
+                    birthdays, weddings, and anniversaries. Just reach out to us in advance, and we'll be happy to
+                    discuss your requirements and design a personalized treat.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="page">
+
+        <div id="contact-page">
+            <div class="contact-img">
+                <img class="contact-me" src="images/operator.png">
+            </div>
+            <div class="contact">
+                <div>
+                    <h3 class="contact-head">Contact Us</h3>
+                </div>
+                <div class="details">
+                    <h4 class="info">Phone number</h4>
+                    <p>(123) 45678910</p>
+                    <h4 class="info">Email Address</h4>
+                    <p><a class="email" href="https://mail.google.com/mail">marvelbakery@mybakery.com</a></p>
+                    <h4 class="info">Shop Address</h4>
+                    <p>75 Bake Street<br>Potsmoth.</p>
+                    <div class="links">
+                        <p>Follow us on our handles</p>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-xl icon"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-xl icon"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="attributions">
+        <a href="https://www.freepik.com/search?format=search&query=lady&type=icon">Icon by Freepik</a><br>
+        <a href="https://www.flaticon.com/free-icons/girl" title="girl icons">Girl icons created by Victoruler -
+            Flaticon
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
